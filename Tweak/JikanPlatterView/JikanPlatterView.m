@@ -101,7 +101,7 @@
 	_staticLabel.textColor = [UIColor whiteColor];
 	_staticLabel.font = [UIFont systemFontOfSize:12 weight:UIFontWeightMedium];
 	_staticLabel.textAlignment = NSTextAlignmentCenter;
-	_staticLabel.text = @"until fully charged";
+	_staticLabel.text = @"剩余充满时间";
 	[_containerView addSubview:_staticLabel];
 }
 
