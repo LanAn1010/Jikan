@@ -468,13 +468,13 @@ static NSDate *TT100ParseDate(NSString *dateString) {
 	}
 
 	if (hrs > 0 && mins > 0) {
-		return [NSString stringWithFormat:NSLocalizedString(@"%d hr %d min", @"hours and minutes"), hrs, mins];
+		return [NSString stringWithFormat:NSLocalizedString(@"%d 小时 %d 分钟", @"hours and minutes"), hrs, mins];
 	} else if (hrs > 0) {
-		return [NSString stringWithFormat:NSLocalizedString(@"%d hr", @"hours"), hrs];
+		return [NSString stringWithFormat:NSLocalizedString(@"%d 小时", @"hours"), hrs];
 	} else if (mins > 0) {
-		return [NSString stringWithFormat:NSLocalizedString(@"%d min", @"minutes"), mins];
+		return [NSString stringWithFormat:NSLocalizedString(@"%d 分钟", @"minutes"), mins];
 	} else {
-		return NSLocalizedString(@"<1 min", @"less than one minute");
+		return NSLocalizedString(@"小于1 分钟", @"less than one minute");
 	}
 }
 
