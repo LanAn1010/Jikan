@@ -208,7 +208,7 @@ static void TT100RecordTicksIfNeeded(NSDictionary *batteryInfo) {
 
 	[self.remainingTimePlatter removeConstraints:self.remainingTimePlatter.constraints];
 
-	static const CGFloat platterHeight = 60.0;	// same as Quick Actions height ig
+	static const CGFloat platterHeight = 50.0;	// same as Quick Actions height ig
 	CGFloat platterWidth = self.bounds.size.width * 0.45;
 	CGFloat platterCenterY = self.bounds.size.height * 0.91;  // shit value, set to the nearest value of the QA height, coudnt find a better way to position it dynamically
 	[NSLayoutConstraint activateConstraints:@[
