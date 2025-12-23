@@ -57,7 +57,7 @@
             <key>cell</key>
             <string>PSButtonCell</string>
             <key>label</key>
-            <string>重启桌面</string>
+            <string>注销桌面</string>
             <key>action</key>
             <string>respring</string>
             <key>confirmation</key>
@@ -65,7 +65,7 @@
                 <key>prompt</key>
                 <string>确定要继续执行吗？</string>
                 <key>title</key>
-                <string>重启桌面</string>
+                <string>注销桌面</string>
                 <key>cancelTitle</key>
                 <string>取消</string>
             </dict>
