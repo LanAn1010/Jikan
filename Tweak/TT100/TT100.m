@@ -474,7 +474,7 @@ static NSDate *TT100ParseDate(NSString *dateString) {
 	} else if (mins > 0) {
 		return [NSString stringWithFormat:NSLocalizedString(@"%d 分钟", @"minutes"), mins];
 	} else {
-		return NSLocalizedString(@"小于1 分钟", @"less than one minute");
+		return NSLocalizedString(@"小于 1 分钟", @"less than one minute");
 	}
 }
 
